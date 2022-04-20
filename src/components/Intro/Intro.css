@@ -4,6 +4,7 @@
   margin-top: 6rem;
 }
 
+/*css for the left side of the landing site*/
 .i-left{
   display: flex;
   position: relative;
@@ -11,7 +12,7 @@
   flex-direction: column;
   gap: 2rem;
 }
-
+/* css for the right side of the landing site */
 .i-right{
   flex: 1;
 }
@@ -20,7 +21,7 @@
   display: flex;
   flex-direction: column;
 }
-
+/* nth child for each of the span located within the .i-name */
 .i-name>:nth-child(1){
   color: black;
   font-weight: bold;
@@ -37,8 +38,78 @@
   color: grey;
   margin-top: 10px
 }
-
+/* different style class from .button */
 .i-button{
   width: 6rem;
   height: 2rem;
+}
+
+/* css for the icons used github linkedin and instagram */
+.i-icons{
+  margin-top: 3rem;
+  display: flex;
+  gap: 0rem;
+}
+
+/* the * targets everything within the icons */
+.i-icons>*{
+  transform: scale(0.5);
+}
+
+.i-icons>*:hover{
+  cursor: pointer;
+}
+
+
+
+/* css for the right side images */
+.i-right{
+  flex: 1;
+  position: relative;
+}
+
+.i-right>*{
+  position: absolute;
+  z-index: 1;
+}
+
+.i-right>:nth-child(1)
+{
+  transform: scale(0.69);
+  left: -15%;
+  top: -9%;
+}
+
+.i-right>:nth-child(2)
+{
+  top: -4.6rem;
+  transform: scale(0.67);
+  left: -3rem;
+}
+
+.i-right>:nth-child(3)
+{
+  transform: scale(1.4);
+  left: 28%;
+}
+
+.i-right>:nth-child(4)
+{
+  transform: scale(0.6);
+  top: -19%;
+  left: -24%;
+  border-radius: 50%;
+  padding: 0;
+}
+
+.blur{
+  position: absolute;
+  width: 22rem;
+  height: 20rem;
+  border-radius: 50%;
+  background: #edd0ff;
+  filter: blur(212px);
+  z-index: -9;
+  top: -18%;
+  left: 56%;
 }
