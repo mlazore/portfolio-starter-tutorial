@@ -8,6 +8,7 @@ import Portfolio from "./components/Portfolio/Portfolio";
 import Testimonials from "./components/Testimonials/Testimonials";
 import Contact from "./components/Contact/Contact"
 import Footer from "./components/Footer/Footer";
+import Toggle from "./components/Toggle/Toggle"
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Testimonials/>
       <Contact/>
       <Footer/>
+      <Toggle/>
     </div>
   );
 }

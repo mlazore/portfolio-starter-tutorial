@@ -41,6 +41,8 @@ function Intro() {
       <img src={glassesimoji} alt="" />
 
       <div style={{top: '-4%', left: '68%'}}>
+
+      
         <FloatingDiv image={Crown} txt1='web' txt2='Developer'/>
       </div>
       </div>

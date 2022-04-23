@@ -39,7 +39,7 @@ const Services = () => {
             <Card
               emoji={Glasses}
               heading={"Developer"}
-              detail={"Full stack web developer"}
+              detail={"Full stack web developer with a interest in xyz and "}
             />
           </div>
           {/* 3rd card */}

@@ -1,0 +1,15 @@
+.toggle{
+  display: flex;
+  justify-content: space-between;
+  border: 3px solid orange;
+  border-radius: 5rem;
+  position: relative;
+  padding: 2px;
+  top: 1rem;
+  cursor: pointer;
+}
+
+/* .t-button{
+  border-radius: 100%;
+  background: orange;
+} */
